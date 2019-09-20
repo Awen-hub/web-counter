@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"  name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div class="box2">
+	<div class="head"> Web Counter</div>
+	</div>
+	<div class="container">
+		<button class="Button3"   onclick="Clean()"><font size="10" color="red">c</font></button>
+	
+	 
+		<button class="Button" onclick="backSpace()">←</button>
+	
+	
+		<button class="Button" value="%" onclick="addElement(this.value)">%</button>
+	
+	
+		<button class="Button" value="/" onclick="addElement(this.value)">÷</button>
+	</div>
+	
+
+
+
+	<div class="container">
+		<button class="Button" value="7" onclick="addElement(this.value)">7</button>
+	
+	
+		<button class="Button" value="8" onclick="addElement(this.value)">8</button>
+	
+	
+		<button class="Button" value="9" onclick="addElement(this.value)">9</button>
+	
+	
+		<button class="Button" value="*" onclick="addElement(this.value)">×</button>
+	</div>
+	
+
+
+	<div class="container">
+		<button class="Button" value="4" onclick="addElement(this.value)">4</button>
+	
+	
+		<button class="Button" value="5" onclick="addElement(this.value)">5</button>
+	
+	
+		<button class="Button" value="6" onclick="addElement(this.value)">6</button>
+	
+	
+		<button class="Button" value="-" onclick="addElement(this.value)">-</button>
+	</div>
+	
+
+
+	<div class="container">
+		<button class="Button" value="1" onclick="addElement(this.value)">1</button>
+	
+	
+		<button class="Button" value="2" onclick="addElement(this.value)">2</button>
+	
+	
+		<button class="Button" value="3" onclick="addElement(this.value)">3</button>
+	
+	
+		<button class="Button" value="+" onclick="addElement(this.value)">+</button>
+	</div>
+	
+
+
+	<div class="container">
+		<button class="Button" value="**" onclick="addElement(this.value)">^</button>
+	
+	
+		<button class="Button" value="0" onclick="addElement(this.value)">0</button>
+	
+	
+		<button class="Button" value="." onclick="addElement(this.value)">.</button>
+	
+	
+		<button class="Button2" onclick="printResult()"><font size="20" color="white">=</font></button>
+	</div>
+	
+
+	<div class="box">
+		<h4 id="getInput"></h4>
+		<h4 id="finalNum"></h4>
+		
+	</div>
+	<div class="box2">
+		<p>Details determine whether you will succeed or not.</p>
+	</div>
+	
+	
+	<script type="text/javascript" src="index.js"></script>
+
+
+</body>
+</html>
